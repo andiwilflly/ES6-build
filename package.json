@@ -1,0 +1,16 @@
+{
+  "name": "willflyES6",
+  "version": "0.1.0",
+  "scripts": {
+    "compile": "babel -d public/js private/js",
+    "prepublish": "npm run compile"
+  },
+  "main": "lib/person.js",
+  "dependencies": {
+    "core-js": "^0.6.0",
+    "node-sass": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel": "^4.6.0"
+  }
+}
